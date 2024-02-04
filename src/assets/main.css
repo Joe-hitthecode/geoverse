@@ -1,0 +1,61 @@
+@import './base.css';
+
+body,html{
+
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+}
+html{
+  background-color: black;
+}
+
+body{
+  display: flex;
+  /* background-color: rgb(33, 43, 49); */
+}
+.container{
+  /* background-color: red; */
+  align-items: center;
+  margin-top: 350px;
+  margin-left: -600px;
+  width: 800px;
+  height: 600px;
+}
+#canvas{
+  width: 800px;
+  height: 600px;
+}
+
+#app {
+ /* display: flex; */
+ align-items: center;
+ justify-content: center;
+ height: 1200px;
+ background-color: black;
+ width: 1800px;
+ margin: 20px;
+
+}
+
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+    
+  }
+}
